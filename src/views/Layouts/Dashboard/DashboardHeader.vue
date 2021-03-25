@@ -12,11 +12,11 @@
       <router-link tag="span" class="hidden-sm-and-down" to="/me">
         <v-btn icon large>
           <v-avatar size="38px" item>
-            <v-img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHIxa2looOJyFRK4WmPw_Q8HIKyFVGcicM7w&usqp=CAU">
+            <v-img src="../../../../public/logo.png">
             </v-img>
           </v-avatar>
         </v-btn>
-        GLOBAL IOT
+        IODEP
       </router-link>
     </v-toolbar-title>
 
@@ -47,9 +47,7 @@
           <v-container>
             <h5>Notificaciones</h5>
           </v-container>
-          <div
-            v-for="item in ntfs"
-            >
+          <div v-for="item in ntfs">
             <v-list-item
               @click="() => {}"
               :key="item.title"

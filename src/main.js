@@ -6,8 +6,6 @@ import vuetify from './plugins/vuetify';
 
 import Notifications from 'cxlt-vue2-toastr';
 
-import VueGoogleCharts from 'vue-google-charts'   //esto es para las graficas analiticas
-
 //importamos socket.io
 //import VueSocketIO from 'vue-socket.io'
 /*Vue.use(new VueSocketIO({
@@ -26,8 +24,6 @@ import VueGoogleCharts from 'vue-google-charts'   //esto es para las graficas an
 import '@babel/polyfill'
 
 Vue.config.productionTip = false
-
-Vue.use(VueGoogleCharts)
 
 Vue.use(Notifications, {   //parametros generales para notificaciones
     position: 'bottom right',

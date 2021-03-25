@@ -34,15 +34,33 @@
           </v-col>
         </v-row>
 
+        <div>
+          <AreaChart/>
+          <PieChart/>
+          <BarChart/>
+          <RadarChart/>
+          <LineChart/>
+        </div>
+
   </div>
 </template>
 
 <script>
 
+  import AreaChart from "../../components/graficos/AreaChart.vue";
+  import PieChart from "../../components/graficos/PieChart.vue";
+  import BarChart from "../../components/graficos/BarChart.vue";
+  import RadarChart from "../../components/graficos/RadarChart.vue";
+  import LineChart from "../../components/graficos/LineChart.vue";
+
   export default {
     name: 'Dashboard',
     components: {
-
+      AreaChart,
+      PieChart,
+      BarChart,
+      RadarChart,
+      LineChart
     },
     props: {
       dataGlobal: null,

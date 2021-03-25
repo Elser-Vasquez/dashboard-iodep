@@ -7,7 +7,7 @@
     <v-footer padless>
       <v-col class="text-init" cols="6" xs="6">
         <h5>
-          {{ new Date().getFullYear() }} — ©<strong>GLOBAL IOT</strong>
+          {{ new Date().getFullYear() }} — © <strong>IODEP</strong>
         </h5>
       </v-col>
 

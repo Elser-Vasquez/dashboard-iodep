@@ -4,7 +4,7 @@
               <v-col cols="12" xs="4" sm="4" md="4"  class="white mx-lg-auto">
                 <div style="min-height: 100vh">
                   <v-container>
-                    <h1 class="primary--text text-center mt-15" style="font-size: 40px;">GLOBAL IOT</h1>
+                    <h1 class="primary--text text-center mt-15" style="font-size: 40px;">IODEP</h1>
                     <div class="text-center mx-5 mt-10" style="font-size: 20px;">¡Bienvenidos! Construyamos juntos cosas increíbles.</div>
                     <div class="text-center">
                       <v-btn
