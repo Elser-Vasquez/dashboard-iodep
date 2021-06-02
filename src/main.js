@@ -3,6 +3,7 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify';
+import aos from './plugins/aos-plugin.js'
 
 import Notifications from 'cxlt-vue2-toastr';
 
@@ -22,6 +23,8 @@ import Notifications from 'cxlt-vue2-toastr';
 
 
 import '@babel/polyfill'
+
+aos.start();
 
 Vue.config.productionTip = false
 

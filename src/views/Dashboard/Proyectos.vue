@@ -10,7 +10,8 @@
             <v-card
               max-width="344"
               class="c-card ma-4"
-              outlined
+              data-aos="zoom-in"
+              outlined 
             >
               <v-list-item three-line>
                 <v-list-item-content>
@@ -49,6 +50,8 @@
               <v-card
                 max-width="344"
                 class="c-card ma-4"
+                data-aos="zoom-in"
+                :data-aos-delay="(i+1)*100"
                 outlined
               >
                 <v-list-item three-line>
